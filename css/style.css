@@ -1,0 +1,423 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Roboto Light'), local('Roboto-Light'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmSU5vAw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Me5Q.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Roboto Bold'), local('Roboto-Bold'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmWUlvAw.ttf) format('truetype');
+}
+/* -------------------------------- 
+
+Navbar setting  
+
+-------------------------------- */
+.nav-item {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin: auto;
+  font-size: 16px;
+  color: #3a3a3a !important;
+  display: inline-block;
+}
+.navbar-nav {
+  display: inline-block;
+  text-align: center;
+}
+.ic-phone {
+  transform: translateY(-15%);
+  margin-right: 10px;
+}
+/* -------------------------------- 
+
+Mortgage for a new building in Saint Petersburg  (First block)
+
+-------------------------------- */
+.mortgage {
+  min-height: 550px;
+  padding: 50px 0;
+  background: url(../img/bg.png) no-repeat;
+  background-size: cover;
+}
+/* Title-bold (green) without position setting */
+.title-bold {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: #083416;
+}
+/* Main title on page h1 */
+.title-bold-size {
+  font-size: 50px;
+}
+.subtitle {
+  font-weight: 400;
+  font-size: 22px;
+  color: #3a3a3a;
+  /* From 0 % */
+}
+.subtitle-table {
+  display: table;
+}
+.subtitle-ml {
+  margin-left: 20px;
+}
+.subtitle-size {
+  font-size: 30px;
+  margin: 0;
+}
+.subtitle-item {
+  font-size: 18px;
+  color: #3a3a3a;
+}
+.subtitle-center {
+  text-align: center;
+}
+.subtitle-block {
+  display: inline-block;
+}
+/* big Button */
+.btn-success {
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  background-color: #083416;
+  border-color: #083416;
+  padding: 10px 55px;
+}
+/* -------------------------------- 
+
+What can we do for you (Second block)
+
+-------------------------------- */
+.benefit {
+  padding: 100px 0 50px 0;
+}
+.second-title {
+  font-size: 36px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+.useful-block {
+  text-align: center;
+}
+.useful-block img {
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+.subject {
+  min-height: 30px;
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+.btn-success-middle {
+  font-size: 20px;
+  padding: 10px 35px;
+}
+/* -------------------------------- 
+
+mortgage calculator (Third block)
+
+-------------------------------- */
+.calculator {
+  padding: 50px 0;
+  background-color: #f2f2f2;
+}
+.dropdown {
+  margin-top: 60px;
+  height: 125px;
+  padding: 20px 25px;
+  background-color: #ffffff;
+  border: 1px black solid;
+  border-radius: 5px;
+}
+.dropdown:last-child {
+  margin-top: 25px;
+}
+.text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+.dropdown-toggle {
+  color: black;
+  position: absolute;
+  margin-top: 20px;
+}
+.dropdown-toggle::after {
+  display: none;
+}
+a:active {
+  color: black;
+}
+a:hover {
+  color: black;
+}
+.input {
+  width: 100%;
+}
+.input {
+  border: none;
+  border-bottom: 1px solid;
+  margin-bottom: 15px;
+}
+.content-name {
+  position: absolute;
+  top: 55%;
+}
+.text-mt {
+  margin-top: 60px;
+}
+.text-second-mt {
+  margin-top: 28px;
+}
+/* -------------------------------- 
+
+Comparative table of mortgage loans (Fourth block)
+
+-------------------------------- */
+.spreadsheet {
+  padding: 50px 0 50px 0;
+}
+.block {
+  padding: 25px 15px;
+  border: 1px #cfcfcf solid;
+  width: 100%;
+}
+.btn-success-little {
+  font-size: 14px;
+  padding: 10px 27px;
+}
+#more-first-arrow {
+  display: none;
+}
+#more-second-arrow {
+  display: none;
+}
+#more-third-arrow {
+  display: none;
+}
+/* -------------------------------- 
+
+Popular Bank offers (Fifth block)
+
+-------------------------------- */
+.box {
+  width: 100%;
+  min-height: 420px;
+  background: white;
+  border: 1px black solid;
+  padding: 30px 20px;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+}
+.line {
+  height: 1px;
+  width: 100%;
+  background: black;
+}
+/* -------------------------------- 
+
+Mortgage in the primary market
+
+-------------------------------- */
+.primary-market {
+  padding: 70px 0;
+}
+.mt-30 {
+  margin-top: 30px;
+}
+#more {
+  display: none;
+  opacity: 70%;
+}
+#more2 {
+  display: none;
+  opacity: 70%;
+}
+.arrow-ntn {
+  border: none;
+  background: none;
+}
+/* -------------------------------- 
+
+Footer setting 
+
+-------------------------------- */
+.footer {
+  min-height: 170px;
+  width: 100%;
+  background: #757575;
+  padding: 30px 0;
+}
+.footer-block {
+  margin-top: 15px;
+}
+.footer-link {
+  color: white;
+}
+.footer-link-item {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  display: inline-block;
+  margin: 0 10px 0 10px;
+}
+.footer-link:hover {
+  text-decoration: none;
+  transition: 1s;
+  color: black;
+}
+.footer-links {
+  text-align: center;
+}
+.footer-link-reg {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  display: inline-block;
+  margin: 15px;
+}
+.mt-10 {
+  margin-top: 10px;
+}
+button,
+button:active,
+button:focus {
+  outline: none;
+}
+input,
+input:active,
+input:focus {
+  outline: none;
+  background: none;
+}
+@media (max-width: 1200px) {
+  .nav-item {
+    font-size: 13px;
+  }
+  .logo {
+    margin: 0 !important;
+  }
+  .btn-margin-mobile {
+    margin: 50px 0 0 32% !important;
+  }
+  .block {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 85%;
+  }
+  .subject-none {
+    display: none;
+  }
+  .logo-mb-mobile {
+    margin-bottom: 20px;
+  }
+  .subtitle-item-mb-mobile {
+    margin-bottom: 20px;
+  }
+  .bank-logo-mobile {
+    height: 60px;
+  }
+  .second-title {
+    font-size: 30px;
+  }
+  .btn-success-little {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .mb-20 {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 992px) {
+  .box {
+    margin-bottom: 15px;
+  }
+  .nav-item {
+    display: block;
+  }
+}
+@media (max-width: 768px) {
+  .title-bold-size {
+    font-size: 43px;
+  }
+  .subject {
+    font-size: 16px;
+  }
+  .useful-block img {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    height: 90px;
+  }
+  .subtitle {
+    font-size: 18px;
+  }
+  .second-title {
+    font-size: 29px;
+  }
+  .btn-margin-mobile {
+    margin: 50px 0 0 19% !important;
+  }
+}
+@media (max-width: 576px) {
+  .title-bold-size {
+    font-size: 30px;
+  }
+  .subtitle {
+    font-size: 20px;
+  }
+  .btn-success-middle {
+    font-size: 16px;
+    padding: 10px 16px;
+  }
+  .useful-block img {
+    height: 85px;
+  }
+}
+@media (max-width: 400px) {
+  .logo {
+    height: 45px;
+  }
+  .title-bold-size {
+    font-size: 24px;
+  }
+  .subtitle-item {
+    font-size: 15px;
+  }
+  .subtitle-size {
+    font-size: 26px;
+  }
+  .subtitle {
+    font-size: 16px;
+  }
+  .second-title {
+    font-size: 19px;
+  }
+  .btn-success {
+    font-size: 16px;
+    padding: 5px 25px;
+  }
+  .first-mobile-btn {
+    margin-left: 20%;
+  }
+  .mortgage {
+    min-height: 455px !important;
+  }
+}
+.mb-20 {
+  margin-bottom: 20px;
+}
